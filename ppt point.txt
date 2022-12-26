@@ -1,0 +1,20 @@
+ppt
+1. problem statement aj
+2. objective aj
+3. architecture diagram m
+4. design module of main page a n k
+5. work pending m
+6. work done a n k
+
+design module
+- header
+- home
+- aboutus
+- review
+- contact
+- login
+- slide show
+- book now
+- gallery
+- footer
+- map

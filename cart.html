@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="CodeHim">
+    
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="cart.css">
+  
+  </head>
+  <body>
+ <header>
+ </header>
+      
+ <main>
+     <!-- Start DEMO HTML (Use the following code into your project)-->
+   <header class="header">
+  <div class="container header__top">
+   <a href="home.html"><img src="Untitled design (1)-modified.png"alt="" style="height: 6rem ; width: 6rem;"></a>
+    <img src="Untitled-design-(10)-transformed.png" alt="" style="display: block;margin-left: auto;margin-right: auto;width: 16rem;" >
+    <div class="header__logo">
+      <h1 class="header__title">
+        <span class="header__subtitle"></span>
+      </h1>
+    </div>
+    <div class="header__cart">
+      <ul>
+        <li class="header__submenu" id="submenu">
+          <button class="header__cart-btn" id="toggle-cart-btn"><svg class="cart" width="24" height="24" viewBox="0 2 22 22">
+  <path d="M17,18C15.89,18 15,18.89 15,20A2,2 0 0,0 17,22A2,2 0 0,0 19,20C19,18.89 18.1,18 17,18M1,2V4H3L6.6,11.59L5.24,14.04C5.09,14.32 5,14.65 5,15A2,2 0 0,0 7,17H19V15H7.42A0.25,0.25 0 0,1 7.17,14.75C7.17,14.7 7.18,14.66 7.2,14.63L8.1,13H15.55C16.3,13 16.96,12.58 17.3,11.97L20.88,5.5C20.95,5.34 21,5.17 21,5A1,1 0 0,0 20,4H5.21L4.27,2M7,18C5.89,18 5,18.89 5,20A2,2 0 0,0 7,22A2,2 0 0,0 9,20C9,18.89 8.1,18 7,18Z"></path>
+</svg> Your Cart</button>
+          <div id="shopping-cart" class="shopping-cart-container">
+            <table id="cart-content">
+              <thead>
+                <tr>
+                  <th>Picture</th>
+                  <th>Cake Selected</th>
+                  <th>Price</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+            <p class="total-container" id="total-price"></p>
+            <a href="payment.html" class="cart-btn">Checkout</a>
+            <a href="#" id="clear-cart" class="cart-btn">Clear Cart</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+  <div class="arrow"><svg width="24" height="24" viewBox="0 0 24 24">
+</svg></div>
+</header>
+<main class="container page-content">
+  <h2 class="page-title">Our Cakes</h2>
+  <div class="grid" id="grid">
+
+    <!--card-->
+    <div class="flip-card">
+      <div class="flip-card-inner">
+          <div class="flip-card-front">
+    <img src="chip2.jpeg" alt="" style="height: 61%;">
+      <h4 class="card__title">Chocochip Cake</h4>
+      <p class="card__price">Rs.200</p>
+      </div>
+      <div class="flip-card-back">
+      <h1>CHIP CAKE </h1> 
+      <p>CHOCHO CHIPP Cake</p> 
+      <p> WE LOVE CAKE </p>
+
+      </div>
+    </div>
+    <button class="card__btn add-to-cart" data-id="6" style="">Add to Cart</button>
+  </div>
+    <!--.card-->
+    <div class="flip-card">
+      <div class="flip-card-inner">
+          <div class="flip-card-front">
+    <img src="bob the builder  cake 43.jpg" alt="" style="height: 61%;">
+      <h4 class="card__title">Bob The Builder Cake</h4>
+      <p class="card__price">Rs.200</p>
+      </div>
+      <div class="flip-card-back">
+      <h1>FONDANT CAKE </h1> 
+      <p>Bob The Builder Cake</p> 
+      <p> "Special Bob The Builder Themed Cake" </p>
+
+      </div>
+    </div>
+    <button class="card__btn add-to-cart" data-id="6" style="">Add to Cart</button>
+  </div>
+    <!--.card-->
+    <div class="flip-card">
+      <div class="flip-card-inner">
+          <div class="flip-card-front">
+    <img src="brownie1.jpeg" alt="" style="height: 61%;">
+      <h4 class="card__title">Brownie Kit-Kat</h4>
+      <p class="card__price">Rs.200</p>
+      </div>
+      <div class="flip-card-back">
+      <h1>Chocolate </h1> 
+      <p>Brownie Kit-Kat</p> 
+      <p> "Cake Stuffed With Chocolate Brownies" </p>
+
+      </div>
+    </div>
+    <button class="card__btn add-to-cart" data-id="6" style="">Add to Cart</button>
+  </div>
+    <!--.card-->
+    <div class="flip-card">
+      <div class="flip-card-inner">
+          <div class="flip-card-front">
+    <img src="choco.jpeg" alt="" style="height: 61%;">
+      <h4 class="card__title">Dark Truth Cake</h4>
+      <p class="card__price">Rs.200</p>
+      </div>
+      <div class="flip-card-back">
+      <h1>CHIP CAKE </h1> 
+      <p>Dark Truth Cake</p> 
+      <p>  </p>
+
+      </div>
+    </div>
+    <button class="card__btn add-to-cart" data-id="6" style="">Add to Cart</button>
+  </div>
+    <!--.card-->
+    <div class="flip-card">
+      <div class="flip-card-inner">
+          <div class="flip-card-front">
+    <img src="dc.jpeg" alt="" style="height: 61%;">
+      <h4 class="card__title">Chocolate Truffle Cake</h4>
+      <p class="card__price">Rs.200</p>
+      </div>
+      <div class="flip-card-back">
+      <h1>CHIP CAKE </h1> 
+      <p>Chocolate Truffle Cake</p> 
+      <p> "Cake With Chocolate Filled Crust Topped With Chocolate Pieces" </p>
+
+      </div>
+    </div>
+    <button class="card__btn add-to-cart" data-id="6" style="">Add to Cart</button>
+  </div>
+    <!--.card-->
+    <div class="flip-card">
+      <div class="flip-card-inner">
+          <div class="flip-card-front">
+    <img src="Cup Cake3.jpeg" alt="" style="height: 61%;">
+      <h4 class="card__title">Halloween Cup Cakes</h4>
+      <p class="card__price">Rs.200</p>
+      </div>
+      <div class="flip-card-back">
+      <h1>CHIP CAKE </h1> 
+      <p>Halloween Cup Cakes</p> 
+      <p>"Special Halloween Themed Cupcakes"</p>
+
+      </div>
+    </div>
+    <button class="card__btn add-to-cart" data-id="6" style="">Add to Cart</button>
+  </div>
+    <!--.card-->
+    <div class="flip-card">
+      <div class="flip-card-inner">
+          <div class="flip-card-front">
+    <img src="flower4.jpeg" alt="" style="height: 61%;">
+      <h4 class="card__title">Dark Belgian Wedding Cake</h4>
+      <p class="card__price">Rs.200</p>
+      </div>
+      <div class="flip-card-back">
+      <h1>CHIP CAKE </h1> 
+      <p>Dark Belgian Wedding Cake</p> 
+      <p> </p>
+
+      </div>
+    </div>
+    <button class="card__btn add-to-cart" data-id="6" style="">Add to Cart</button>
+  </div>
+      <!--.card-->
+      <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+      <img src="rascake2.jpeg" alt="" style="height: 61%;">
+        <h4 class="card__title">Rasmalai Cake</h4>
+        <p class="card__price">Rs.200</p>
+        </div>
+        <div class="flip-card-back">
+        <h1>CHIP CAKE </h1> 
+        <p>Rasmalai Cake</p> 
+        <p> "Special Cake From Rasmalai Milk, Topped With Dry Fruits And Saffron Strands" </p>
+
+        </div>
+      </div>
+      <button class="card__btn add-to-cart" data-id="6" style="">Add to Cart</button>
+    </div>
+          <!--.card-->
+          <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+          <img src="showerbaby.jpeg" alt="" style="height: 61%;">
+            <h4 class="card__title">Baby Shower</h4>
+            <p class="card__price">Rs.200</p>
+            </div>
+            <div class="flip-card-back">
+            <h1>CHIP CAKE </h1> 
+            <p>Baby Shower</p> 
+            <p> "Cute, Baby Themed Cake" </p>
+    
+            </div>
+          </div>
+          <button class="card__btn add-to-cart" data-id="6" style="">Add to Cart</button>
+        </div>
+              <!--.card-->
+      <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+      <img src="Wedding Cake1(1).jpeg" alt="" style="height: 61%;">
+        <h4 class="card__title">French Vanilla Wedding Cake</h4>
+        <p class="card__price">Rs.200</p>
+        </div>
+        <div class="flip-card-back">
+        <h1>CHIP CAKE </h1> 
+        <p>French Vanilla Wedding Cake</p> 
+        <p>  </p>
+
+        </div>
+      </div>
+      <button class="card__btn add-to-cart" data-id="6" style="">Add to Cart</button>
+    </div>
+          <!--.card-->
+          <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+          <img src="thali.jpeg" alt="" style="height: 61%;">
+            <h4 class="card__title">Thali Cake</h4>
+            <p class="card__price">Rs.200</p>
+            </div>
+            <div class="flip-card-back">
+            <h1>CHIP CAKE </h1> 
+            <p>Thali Cake</p> 
+            <p> "All Flavours Of Kerala" </p>
+    
+            </div>
+          </div>
+          <button class="card__btn add-to-cart" data-id="6" style="">Add to Cart</button>
+        </div>
+              <!--.card-->
+      <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+      <img src="zoo.jpeg" alt="" style="height: 61%;">
+        <h4 class="card__title">Zoo Cake</h4>
+        <p class="card__price">Rs.200</p>
+        </div>
+        <div class="flip-card-back">
+        <h1>CHIP CAKE </h1> 
+        <p>Zoo Cake</p> 
+        <p> "Animal Themed Cake" </p>
+
+        </div>
+      </div>
+      <button class="card__btn add-to-cart" data-id="6" style="">Add to Cart</button>
+    </div>
+          <!--.card-->
+          <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+          <img src="pink.jpeg" alt="" style="height: 61%;">
+            <h4 class="card__title">Strawberry Cake</h4>
+            <p class="card__price">Rs.200</p>
+            </div>
+            <div class="flip-card-back">
+            <h1>CHIP CAKE </h1> 
+            <p>Strawberry Cake</p> 
+            <p> "Cake With Strawberry Essence Crust Topped With Fresh Strawberries And Frosting " </p>
+    
+            </div>
+          </div>
+          <button class="card__btn add-to-cart" data-id="6" style="">Add to Cart</button>
+        </div>
+              <!--.card-->
+      <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+      <img src="macqueen.jpeg" alt="" style="height: 61%;">
+        <h4 class="card__title">Ligthning McQueen</h4>
+        <p class="card__price">Rs.200</p>
+        </div>
+        <div class="flip-card-back">
+        <h1>CHIP CAKE </h1> 
+        <p>Ligthning McQueen</p> 
+        <p> "Special Lightning McQueen Cake, Kachow " </p>
+
+        </div>
+      </div>
+      <button class="card__btn add-to-cart" data-id="6" style="">Add to Cart</button>
+    </div>
+              <!--.card-->
+      <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+      <img src="jar.jpeg" alt="" style="height: 61%;">
+        <h4 class="card__title">Jar Cakes</h4>
+        <p class="card__price">Rs.200</p>
+        </div>
+        <div class="flip-card-back">
+        <h1>CHIP CAKE </h1> 
+        <p>Jar Cakes</p> 
+        <p> "Strawberry Cake In A Jar Covered In Whipped Cream, Topped With Strawberry Pieces" </p>
+
+        </div>
+      </div>
+      <button class="card__btn add-to-cart" data-id="6" style="">Add to Cart</button>
+    </div>
+          <!--.card-->
+          <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+          <img src="pie.jpeg" alt="" style="height: 61%;">
+            <h4 class="card__title">Banoffee Pie</h4>
+            <p class="card__price">Rs.200</p>
+            </div>
+            <div class="flip-card-back">
+            <h1>CHIP CAKE </h1> 
+            <p>Banoffee Pie</p> 
+            <p> "Special Pie With Vanilla Frosting, Topped With Chocolate Sprinkles" </p>
+    
+            </div>
+          </div>
+          <button class="card__btn add-to-cart" data-id="6" style="">Add to Cart</button>
+        </div>
+          <!--.card-->
+          <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+          <img src="flower.jpeg" alt="" style="height: 61%;">
+            <h4 class="card__title">Mango Cake</h4>
+            <p class="card__price">Rs.200</p>
+            </div>
+            <div class="flip-card-back">
+            <h1>CHIP CAKE </h1> 
+            <p>Mango Cake</p> 
+            <p> "Cake With Base Blended With Mango Puree And Vanilla Extract. Topped With Frosting And Mango Slices" </p>
+    
+            </div>
+          </div>
+          <button class="card__btn add-to-cart" data-id="6" style="">Add to Cart</button>
+        </div>
+  </div>
+</main>
+
+ </main>
+
+  <script  src="cart.js"></script>
+  </body>
+</html>

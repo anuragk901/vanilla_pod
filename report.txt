@@ -1,0 +1,58 @@
+(8 weeks)
+week 1 (18th - 22th) july
+18th - group formation			- completed
+19th - topic discussion			- pending
+20th - topic discussion			- completed
+21th - topic final disucussion	- completed
+22th - topic finalization 		- completed
+
+week 2 (25th - 29th) july
+25th - presentation discussion	- pending
+26th - ppt making				- pending	
+27th - ppt making				- pending
+28th - working on ppt			- pending
+29th - completing pending work	- completed
+
+week 3 (1st - 5th) august
+1st - title selection			- completed
+2nd - page layout				- pending
+3rd - presentation			- completed
+4th - logo making				- pending
+5th - completing pending work 	- completed
+
+week 4 (8th - 12th) august
+8th  - learning html			- completed
+9th  - learning html			- completed
+10th - learning html			- completed
+11th - learning html			- completed
+12th - learning html			- completed
+
+week 5 (22th - 26th) august
+22th - learning css n js		- completed
+23th - learning css n js		- completed
+24th - learning css n js		- completed
+25th - learning css n js		- completed
+26th - learning css n js		- completed
+
+week 6 (5th - 9th) sep
+5th - website formation			- completed
+6th - content filling			- completed
+7th - picture layout			- completed
+8th - croping and adjusting pics    - completed
+9th - making gallery page		- completed
+
+week 7 (12th - 16th) sep
+12th - making cart page			- completed
+13th - font formation			- completed
+14th - adding map				- completed
+15th - header				- completed
+16th - linking home page		- completed
+
+week 8 (19th - 23th) sep
+19th - about us page			- completed
+20th - login page				- completed
+21th - resgister page			- completed
+22th - color the pages			- completed
+23th - final working			- completed
+
+3rd oct - 2nd ppt
